@@ -6,7 +6,7 @@ import styled from '@emotion/styled';
 
 const StylishSidebar = forwardRef((props, ref) => {
   const { 
-    backgroundImage = 'https://eugeville.files.wordpress.com/2015/03/mount.jpg',
+    backgroundImage = 'https://i.postimg.cc/HL9gdhLk/wp8730549-valorant-map-wallpapers.jpg',
     useImageAsHeader = false,
     header = {
       fullName: 'Valorant',
@@ -20,12 +20,12 @@ const StylishSidebar = forwardRef((props, ref) => {
       align: 'center'
     },
     menuItems = [
-      {name: 'Item1', to: '/item1', icon: 'https://eugeville.files.wordpress.com/2015/03/home.png', subMenuItems: [] },
-      {name: 'Item2', to: '/item2', icon: 'https://eugeville.files.wordpress.com/2015/03/plane.png', 
+      {name: 'Game', to: '/item1', icon: 'https://eugeville.files.wordpress.com/2015/03/home.png', subMenuItems: [] },
+      {name: 'Features', to: '/item2', icon: 'https://eugeville.files.wordpress.com/2015/03/plane.png', 
         subMenuItems: [
-          { name: 'Sub1', to: '/sub1'},
-          { name: 'Sub2', to: '/sub2'}, 
-          { name: 'Sub3', to: '/sub3'}]
+          { name: 'About me', to: '/sub1'},
+          { name: 'Montage collection', to: '/sub2'}, 
+          { name: 'Letter to Maker', to: '/sub3'}]
       }
     ],
     fonts = {
