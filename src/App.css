@@ -38,3 +38,28 @@
     transform: rotate(360deg);
   }
 }
+
+.app {
+  display: flex;
+  padding: 30px;
+}
+
+.game {
+  width: 560px;
+  height: 560px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game img {
+  width: 90px;
+  height: 90px;
+}
+.mid{
+  height: 100vh; 
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+
+}
